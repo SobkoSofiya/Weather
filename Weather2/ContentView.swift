@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import Alamofire
+import SwiftyJSON
 
 struct ContentView: View {
     var body: some View {
@@ -13,6 +15,13 @@ struct ContentView: View {
             .padding()
     }
 }
+
+
+
+
+
+
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

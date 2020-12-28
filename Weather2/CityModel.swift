@@ -6,3 +6,9 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct CityModel: Hashable {
+    var nameCity, temp, date, image: String
+    
+}

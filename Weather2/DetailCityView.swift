@@ -8,13 +8,17 @@
 import SwiftUI
 
 struct DetailCityView: View {
+    @State var city: CityModel
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("\(city.nameCity)")
+            Text("\(city.date)")
+            Text("\(city.temp)")
+            Text("\(city.image)")
+        }
+       
+        
     }
 }
 
-struct DetailCityView_Previews: PreviewProvider {
-    static var previews: some View {
-        DetailCityView()
-    }
-}
+
